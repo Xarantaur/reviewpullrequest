@@ -1,6 +1,5 @@
 public class BadlyWrittenClass {
     private int number;
-    private int ligegyldigt;
 
     // Constructor with multiple parameters
     public BadlyWrittenClass(int n) {
