@@ -46,4 +46,22 @@ public class BadlyWrittenClass {
         }
         return result;
     }
+
+    // A method to print a random message
+    public void printRandomMessage() {
+        if (number % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
+    }
+
+    // A method to perform a completely unrelated task
+    public String doSomethingUnrelated() {
+        int sum = 0;
+        for (int i = 0; i < number; i++) {
+            sum += i;
+        }
+        return "The sum of numbers from 0 to " + number + " is " + sum;
+    }
 }
